@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="js/link.generator.js" type="text/javascript"></script>
+	<script src="js/connection.js" type="text/javascript"></script>
+	<script src="js/sqlite.builder.js" type="text/javascript"></script>
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/ajax.builder.js" type="text/javascript"></script>
+	<link rel=stylesheet href="css/bootstrap.css">
+	<link rel=stylesheet href="css/materialize.min.css">
+</head>
+<body>
+	<div class="logo-container">
+		<img src="logo.png" class="logo-img">
+	</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		localStorage.setItem("app_exp", '');
+
+		if (!url_base) {
+			localStorage.setItem("url_base", 'http://localhost/klinik_kecantikan/');
+			setTimeout(function(){
+				window.location.reload();
+			},100);
+		}else{
+
+		}
+
+		// setTimeout(function(){
+		// 	window.location = 'dashboard.html'; 
+		// }, 3000);
+	});
+
+	function change_base(){
+		server_base = 
+	}
+</script>
+</html>
