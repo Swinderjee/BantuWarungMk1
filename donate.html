@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Warung</title>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <!-- <script src="js/bootstrap.js" type="text/javascript"></script> -->
+  <script src="js/materialize.min.js" type="text/javascript"></script>
+  <script src="js/fontawesome.min.js" type="text/javascript"></script>
+  <script src="js/solid.min.js" type="text/javascript"></script>
+  <!-- <link rel=stylesheet href="css/bootstrap.css"> -->
+  <link rel=stylesheet href="css/materialize.min.css">
+  <link rel=stylesheet href="css/solid.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <style type="text/css">
+        .price{
+            font-weight: 500;
+            color: #ee6e73;
+            font-style: italic;
+        }
+        </style>
+        <body>
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <a href="#" class="brand-logo center">Bantu Warung</a>
+                </div>
+            </nav>
+        
+            <ul id="slide-out" class="sidenav">
+                <li><div class="user-view">
+                    <div class="background">
+                        <img src="asset/img/backheader.png">
+                    </div>
+                    <a href="#user"><img class="circle" src="asset/img/avatar.png"></a>
+                    <a href="#name"><span class="white-text name">John Doe</span></a>
+                    <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                </div></li>
+                <li><a href="#!"><i class="fas fa-user"></i> Account</a></li>
+                <li><a href="#!"><i class="fas fa-cog"></i> Setting</a></li>
+                <li><a href="default.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+
+
+
+
+
+<br>
+  <div class="row">
+        <div class="col s12 m6">
+          <div class="card teal lighten-4">
+
+  <div class="container">
+
+      <div class="row s6 m4">
+        <div class="col s12 m4">
+          <div class="icon-block">
+                <br><br>
+            <h5 class="center">Metode Donasi</h5>
+            <form> <!-- Untuk metode bank sebenernya itu tidak ada input, tapi untuk mendemokan dibuat saja ada inputnya -->
+            <ul class="collapsible white">
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">add</i>Personal Transfer</div> <!-- Disini dibuat rekursif -->
+                      <div class="collapsible-body"><span class="input-field ">
+                            <p class="center" >Harap serahkan kepada pemilik warung untuk konfirmasi donasi</p>
+                            <input placeholder="Jumlah Donasi" id="donasi" type="text" class="validate">
+                            <input placeholder="Pin Pemilik Warung" id="pin" type="text" class="validate">
+                          </span> </div>
+                    </li>
+                    <li>
+                            <div class="collapsible-header"><i class="material-icons">add</i>Bank BNI</div>
+                            <div class="collapsible-body"><span class="input-field ">
+                                    <p class="center" >Transfer melalui e-account bank x, system akan menerima data transfer secara auto</p>
+                                    <p class="center" >Transfer ke 11122233344</p>
+                                    <input placeholder="Jumlah Donasi" id="donasi" type="text" class="validate">
+                                </span> </div>
+                    </li>
+                    <li>
+                            <div class="collapsible-header"><i class="material-icons">add</i>Bank BTN </div>
+                            <div class="collapsible-body"><span class="input-field ">
+                                    <p class="center" >Transfer melalui e-account bank x, system akan menerima data transfer secara auto</p>
+                                    <p class="center" >Transfer ke 11122233344</p>
+                                    <input placeholder="Jumlah Donasi" id="donasi" type="text" class="validate">
+                                </span> </div>
+                    </li>   
+                    <li>
+                            <div class="collapsible-header"><i class="material-icons">add</i>Bank X </div>
+                            <div class="collapsible-body"><span class="input-field ">
+                                    <p class="center" >Transfer melalui e-account bank x, system akan menerima data transfer secara auto</p>
+                                    <p class="center" >Transfer ke 11122233344</p>
+                                    <input placeholder="Jumlah Donasi" id="donasi" type="text" class="validate">
+                                </span> </div>
+                    </li>                    
+                  </ul>
+                  <div class="form-group" align="center">
+                    <button type="submit" class="btn btn-primary" align="center"><i class="fa fa-send"></i> Konfirmasi </button>
+                  </div>
+                  <br><br>
+            </form>
+          </div>
+        </div>
+      </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+
+<h5 class="center">Top Donator</h5>
+<ul class="collection">
+    <li class="collection-item avatar">
+      <img src="asset/img/backheader.png" alt="" class="circle">
+      <span class="title">UserName</span>
+      <p>Donate max <br>
+         TimeStamp
+      </p>
+    </li>
+    <li class="collection-item avatar">
+            <img src="asset/img/backheader.png" alt="" class="circle">
+            <span class="title">UserName</span>
+            <p>Donate max <br>
+               TimeStamp
+            </p>
+          </li>
+          <li class="collection-item avatar">
+                <img src="asset/img/backheader.png" alt="" class="circle">
+                <span class="title">UserName</span>
+                <p>Donate max <br>
+                   TimeStamp
+                </p>
+              </li>
+              <li class="collection-item avatar">
+                    <img src="asset/img/backheader.png" alt="" class="circle">
+                    <span class="title">UserName</span>
+                    <p>Donate max <br>
+                       TimeStamp
+                    </p>
+                  </li>
+  </ul>
+
+
+  
+  <footer class="page-footer teal">
+    
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
